@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>cornerMusic // 2016</title>
+
+		<meta name="author" content="Isaac Solano">
+		<meta charset="utf-8">
+		<meta name="viewport" content="user-scalable=no">
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesAdmin.css">
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+		<link rel="icon" type="image/png" href="imgs/favicon.png">
+
+	</head>
+
+	<body>
+		<header>
+			<div class="inputsearch">
+				<a href='#'><span class="fa fa-search" aria-hidden="true"></span></a>
+			</div>
+		</header>
+
+		<main>
+			<section id="sectionCanciones">
+				
+			</section>
+			
+			<div class="container hide" id="pmpAgregarCancion">
+				<div class="box">
+					<p>Informacion del artista</p>
+					<input type="text" id="txtNombreArtista" placeholder="Nombre del artista">
+					<input type="text" id="txtNombreDisquera" placeholder="Nombre de la disquera">
+					<input type="date" id="txtNacimiento">
+						
+					<p>Informacion del album</p>
+					<input type="number" id="txtCodigo" placeholder="Codigo del album">
+					<input type="text" id="txtNombreAlbum" placeholder="Nombre del album">
+					<input type="date" id="txtFechaLanzamiento">
+
+					<p>Informacion de la canción</p>
+					<input type="text" id="txtNombreCancion" placeholder="Nombre de la cancion">
+
+					<output id="txtMensajePmp"></output>
+					<input type="button" id="btnAgregarCancion" value="Crear" class="izq">
+					<input type="button" id='btnCancelarOperacion' value="Cancelar" class="der">
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<a href="#" id="btnMostrarPrompt" class="agregarLista"><span class="fa fa-plus" aria-hidden="true"></span></a>
+		</footer>
+		<script src="js/bussinesLogicAdmin.js"></script>
+		<script src="js/uiLogicAdmin.js"></script>
+	</body>
+</html>

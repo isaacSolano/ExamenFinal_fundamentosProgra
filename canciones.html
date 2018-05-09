@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>cornerMusic // 2016</title>
+
+		<meta name="author" content="Isaac Solano">
+		<meta charset="utf-8">
+		<meta name="viewport" content="user-scalable=no">
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesCanciones.css">
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+		<link rel="icon" type="image/png" href="imgs/favicon.png">
+
+	</head>
+
+	<body>
+		<header>
+			<div class="inputsearch">
+				<input type="text">
+				<a href='#'><span class="fa fa-search" aria-hidden="true"></span></a>
+			</div>
+		</header>
+
+		<main>
+			<div class="container hide" id="pmpCrearLista">
+				<div class="box">
+					<p>¿Desea agregar esta cancion?</p>
+					<output id="txtMensajePmp"></output>
+					<input type="button" id="btnAgregar" value="Agregar" class="izq">
+					<input type="button" id='btnCancelar' value="Cancelar" class="der">
+				</div>
+			</div>
+			<section id="sectionCancionesLista">
+				<h1>Canciones en lista</h1>
+			</section>
+			<section id="sectionCanciones">
+				<h1>Todas la canciones en el sistema</h1>
+			</section>
+
+			<section id="reproductorBloque" class="hide">
+				<audio controls id="reproductor" type='audio/mpeg'></audio>
+			</section>
+		</main>
+		<script src="js/bussinesLogicCanciones.js"></script>
+		<script src="js/uiLogicCanciones.js"></script>
+	</body>
+</html>

@@ -1,0 +1,150 @@
+.clear{
+	clear: both;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.hide{
+	display: none;
+}
+body{
+	font-family: helvetica;
+	text-align: center;
+	background-blend-mode: overlay;
+	background: #354546;
+	background-image: url(../imgs/body_bg.jpg);
+	background-position: center;
+	background-repeat: none;
+	background-attachment: fixed;
+}
+header nav{
+	border-bottom: 1px solid #f1c40f;
+}
+header nav img{
+	padding: 1%;
+	width: 20%;
+}
+header h1{
+	color: #ecf0f1;
+	font-size: 2em;
+	margin: 12% 0;
+}
+header a{
+	border-radius: 1px;
+}
+header>a.registrarse{
+	background: #f1c40f;
+	padding: 1.5% 3.5%;
+	font-size: 1.4em;
+	text-decoration: none;
+	color: #354546;
+	transition: 1s;
+	display: inline-block;
+}
+header>a.registrarse:hover{
+	background: #354546;
+	color: #f1c40f;
+	transition: 1s;
+}
+header>a.inicio_sesion{
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #f1c40f;
+	transition: 1s;
+	display: block;
+	margin: 4% auto 0 auto;
+	width: 13%;
+}
+header>a.inicio_sesion:hover{
+	color: #ecf0f1;
+	transition: 1s;
+}
+main form{
+	margin: 6% auto 2% auto;
+	/* background: rgba(241, 196, 15, 0.8); */
+	width: 95%;
+	border-radius: 2px;
+	border-bottom: 1px solid #f1c40f;
+	border-top: 1px solid #f1c40f;
+}
+main form h1{
+	color: #ecf0f1;
+	margin: 0 0 3% 0;
+	font-size: 1.3em;
+	padding: 3% 0;
+	border: none;
+	border-bottom: 1px solid #f1c40f;
+	/* background: #354646; */
+}
+main form label{
+	display: block;
+	margin: 3% 0 1% 0;
+	color: #ecf0f1;
+}
+main form input, main form select{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0.8%;
+	font-size: 0.800em;
+	background: rgba(241, 196, 15, 0.5);
+	border: 1px solid #f1c40f;
+	color: #354546;
+	font-family: helvetica;
+	border-radius: 1px;
+	width: 30%;
+	font-weight: bold;
+}
+main form select{
+	margin: 4% auto 1% auto;
+}
+main form input[type=button]{
+	display: block;
+	margin: 5% auto 0 auto;
+	background: #354546;
+	color: #ecf0f1;
+	padding: 1.3% 3%;
+	font-size: 1em;
+	cursor: pointer;
+	border: 0px;
+	transition: 1s;
+	font-weight: bolder;
+}
+main form input[type=button]:hover{
+	background: #ecf0f1;
+	color: #354546;
+	transition: 1s;
+}
+main form output{
+	margin: 3% 0;
+	display: block;
+}
+
+main form input.inputError, main form select.inputError{
+	background: rgba(247, 92, 76, 0.5);
+	border: 1px solid #F75C4C;
+	transition: 1s;
+}
+main form input.inputBien, main form select.inputBien{
+	background: rgba(30, 188, 97, 0.5);
+	border: 1px solid #1EBC61;
+	transition: 1s;
+}
+main form .mensajeError{
+	color: #F75C4C;
+	transition: 1s;
+	font-weight: bolder;
+}
+main form .mensajeBien{
+	color: #1EBC61;
+	transition: 1s;
+	font-weight: bolder;
+}
+main a{
+	color: #ecf0f1;
+	margin: 0 0 3% 0;
+	display: block;
+}

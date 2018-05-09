@@ -1,0 +1,188 @@
+.clear{
+	clear: both;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.hide{
+	display: none;
+}
+body{
+	font-family: helvetica;
+	text-align: center;
+	background-blend-mode: overlay;
+	background: #354546;
+	background-image: url(../imgs/body_bg.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+header div{
+	border-bottom: 1px solid #f1c40f;
+	width: 90%;
+	margin: 2% auto 5% auto;
+}
+header div input[type='text']{
+	width: 91%;
+	padding: 0.9% 0.5%;
+	text-align: center;
+	background: none;
+	border: none;
+	color: #ecf0f1;
+	vertical-align: middle;
+	font-size: 1em;
+	font-family: helvetica;
+}
+header a{
+	padding: 1% 3.09%;
+	background: #f1c40f;
+	border: none;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 1em;
+	color: #354546;
+	transition: 1s;
+	font-weight: bolder;
+	display: inline-block;
+	vertical-align: middle;
+}
+header a:hover{
+	background: #354546;
+	color: #f1c40f;
+}
+main p.sinListas{
+	font-size: 1.5em;
+	color: #ecf0f1;
+	margin: 20% 0 0 0;
+	opacity: 0.8;
+}
+main div.container{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(53,69,70,0.7);
+	top: 0;
+}
+main div.container div.box{
+	background: #f1c40f;
+	width: 43%;
+	height: 30%;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	padding: 3% 0 0 0;
+	border-radius: 2px;
+	position: relative;
+}
+main div.container div.box p{
+	color: #354546;
+	margin: 0 0 5% 0;
+}
+main div.container div.box input[type='text']{
+	width: 70%;
+	padding: 1%;
+	font-size: 1em;
+	font-family: helvetica;
+	color: #f1c40f;
+	border: 1px solid #354546;
+	border-radius: 2px;
+	text-align: center;
+	background: rgba(53,69,70,0.9);
+	display: block;
+	margin: 0 auto;
+}
+main div.container div.box output{
+	display: block;
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	top: 50%;
+}
+main div.container div.box input[type='button']{
+	width: 40%;
+	height: 20%;
+	margin: 0 auto;
+	cursor: pointer;
+	background: #354546;
+	border: 1px solid #354546;
+	border-bottom: none;
+	font-size: 1em;
+	color: #f1c40f;
+	transition: 1s;
+	position: absolute;
+	bottom: 0%;
+}
+main div.container div.box input[type='button'].izq{
+	left: 7%;
+}
+main div.container div.box input[type='button'].der{
+	right: 7%;
+}
+main div.container div.box input[type='button']:hover{
+	background: #f1c40f;
+	color: #354546;
+	transition: 1s;
+	border: 1px solid #354546;
+	border-bottom: none;
+}
+
+main div.container div.box input[type='text'].inputError{
+	background: rgba(247, 92, 76, 0.9);
+	border: 1px solid #F75C4C;
+	transition: 1s;
+}
+main div.container div.box input[type='text'].inputBien{
+	background: rgba(30, 188, 97, 0.9);
+	border: 1px solid #1EBC61;
+	transition: 1s;
+}
+main div.container div.box output.mensajeError{
+	color: #F75C4C;
+	transition: 1s;
+	font-weight: bolder;
+}
+main div.container div.box output.mensajeBien{
+	color: #1EBC61;
+	transition: 1s;
+	font-weight: bolder;
+}
+
+main section a.interfaceLista{
+	width: 80%;
+	background: #f1c40f;
+	display: block;
+	padding: 1.5% 5%;
+	text-decoration: none;
+	color: #354546;
+	font-size: 1em;
+	margin: 1.5% auto 0 auto;
+	text-align: left;
+	transition: 1s;
+	cursor: pointer;
+}
+main section a.interfaceLista:hover{
+	background: #354546;
+	color: #f1c40f;
+	transition: 1s;
+}
+
+footer a.agregarLista{
+	padding: 1.5% 2%;
+	color: #354546;
+	background: #f1c40f;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 5%;
+	border-radius: 3px;
+	transition: 1s;
+	border: 1px solid #354546;
+}
+footer a.agregarLista:hover{
+	background: #354546;
+	color: #f1c40f;
+	transition: 1s;
+	border: 1px solid #f1c40f;
+}

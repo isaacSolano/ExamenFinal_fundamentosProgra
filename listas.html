@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>cornerMusic // 2016</title>
+
+		<meta name="author" content="Isaac Solano">
+		<meta charset="utf-8">
+		<meta name="viewport" content="user-scalable=no">
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesListas.css">
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+		<link rel="icon" type="image/png" href="imgs/favicon.png">
+
+	</head>
+
+	<body>
+		<header>
+			<div class="inputsearch">
+				<input type="text">
+				<a href='#'><span class="fa fa-search" aria-hidden="true"></span></a>
+			</div>
+		</header>
+
+		<main>
+			<p id="txtSinListas" class="sinListas">Aún no has creado listas</p>
+
+			<div class="container hide" id="pmpCrearLista">
+				<div class="box">
+					<p>Nombre de la nueva lista</p>
+					<input type="text" id="txtNombreLista">
+					<output id="txtMensajePmp"></output>
+					<input type="button" id="btnCrearLista" value="Crear" class="izq">
+					<input type="button" id='btnCancelarOperacion' value="Cancelar" class="der">
+				</div>
+			</div>
+
+			<section id="listas">
+			</section>
+		</main>
+
+		<footer>
+			<a href="#" id="btnMostrarPrompt" class="agregarLista"><span class="fa fa-plus" aria-hidden="true"></span></a>
+		</footer>
+		<script src="js/bussinesLogicListas.js"></script>
+		<script src="js/uiLogicListas.js"></script>
+	</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>cornerMusic || 2016</title>
+
+		<meta name="author" content="Isaac Solano">
+		<meta charset="utf-8">
+		<meta name="viewport" content="user-scalable=no">
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesLogin.css">
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+		<link rel="icon" type="image/png" href="imgs/favicon.png">
+
+	</head>
+
+	<body>
+		<header id="bienvenida">
+			<nav>
+				<img src="imgs/logo.png" alt="logo">
+			<div class="clear"></div>
+			</nav>
+
+			<h1>¡DISFRUTA DE TODO EL CONTENIDO DE NUESTRA COMUNIDAD!</h1>
+
+			<a href="#" id="btnMostrarCreacionUsuario" class="registrarse">Registrese</a>
+			<a href="#" id="btnMostrarInicioSesion" class="inicio_sesion">Iniciar sesión</a>
+		</header>
+
+		<main>
+			<form id="boxCreacionUsuario" class="hide">
+				<label for="txtNombreCompleto">Nombre completo</label>
+				<input type="text" id="txtNombreCompleto">
+
+				<label for="txtCrearUsuario">Nombre de usuario</label>
+				<input type="text" id="txtCrearUsuario">
+
+				<label for="txtNacimiento">Fecha de nacimiento</label>
+				<input type="date" id="txtNacimiento">
+
+				<label for="txtCorreo">Ingresa un correo electronico</label>
+				<input type="text" id="txtCorreo">
+
+				<select id="txtGenero">
+					<option value="default">Selecciona tú genero</option>
+					<option value="masc">Masculino</option>
+					<option value="femen">Femenino</option>
+					<option value="trans">Intergenero</option>
+				</select>
+
+				<label for="txtCreacionContrasenna">Crea una contraseña</label>
+				<input type="password" id="txtCreacionContrasenna">
+
+				<label for="txtConfirmacionContrasenna">Confirma tu contraseña</label>
+				<input type="password" id="txtConfirmacionContrasenna">
+
+				<input type="button" value="Crear" id="botonCrearUsuario">
+				<output id="txtMensajeCrear"></output>
+			</form>
+
+			<form id="boxInicioSesion" class="hide">
+				<label for="txtIniciarUsuario">Nombre de usuario</label>
+				<input type="text" id="txtIniciarUsuario">
+
+				<label for="txtIniciarContrasenna">Escribe tu contraseña</label>
+				<input type="password" id="txtIniciarContrasenna">
+				<input type="button" value="Iniciar sesión" id="botonIniciarUsuario">
+
+				<output id="txtMensajeRegistrar"></output>
+			</form>
+			<a href="#" id="btnMostrarPaginaInicio" class="hide">Volver a inicio</a>
+		</main>
+
+		<script src="js/uiLogicLogin.js"></script>
+		<script src="js/bussinesLogicLogin.js"></script>
+	</body>
+</html>
